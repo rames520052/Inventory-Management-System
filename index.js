@@ -12,8 +12,6 @@ app.get('/', (req, res)=>{
     res.send("<h1>Welcome to Inventory Management System</h1>");
 })
 
-
-
 app.use('/', itemRouter)
 
 
